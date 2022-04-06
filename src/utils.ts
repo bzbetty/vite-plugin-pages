@@ -50,6 +50,8 @@ export function isCatchAllRoute(routePath: string, nuxtStyle = false) {
     : cacheAllRouteRE.test(routePath)
 }
 
+
+
 export function resolveImportMode(
   filepath: string,
   options: ResolvedOptions,
